@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 283
-  ClientWidth = 552
+  ClientHeight = 423
+  ClientWidth = 642
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,7 +14,7 @@ object Form1: TForm1
   PixelsPerInch = 120
   TextHeight = 16
   object Button1: TButton
-    Left = 136
+    Left = 82
     Top = 56
     Width = 75
     Height = 25
@@ -23,12 +23,48 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object mOutput: TMemo
-    Left = 96
-    Top = 114
+    Left = 86
+    Top = 87
     Width = 411
     Height = 167
     Lines.Strings = (
       'Output:')
     TabOrder = 1
+  end
+  object bConvertToString: TButton
+    Left = 90
+    Top = 260
+    Width = 149
+    Height = 25
+    Caption = 'Convert To String'
+    TabOrder = 2
+    OnClick = bConvertToStringClick
+  end
+  object Button2: TButton
+    Left = 136
+    Top = 306
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 136
+    Top = 346
+    Width = 75
+    Height = 25
+    Caption = 'Button3'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 442
+    Top = 298
+    Width = 75
+    Height = 25
+    Caption = 'debug'
+    TabOrder = 5
+    OnClick = Button4Click
   end
 end
